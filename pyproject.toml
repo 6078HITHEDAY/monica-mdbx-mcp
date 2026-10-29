@@ -1,0 +1,9 @@
+[project]
+name = "monica-mdbx-mcp"
+version = "1.0.0"
+description = "MCP server exposing a local Monica MDBX password vault (read-only queries via the mdbx CLI)"
+requires-python = ">=3.12"
+dependencies = ["mcp>=2,<3"]
+
+[tool.uv]
+package = false
